@@ -92,7 +92,5 @@ Writes the retrieved data for each API endpoint to a separate JSON file stored u
 ## Improvements Considered
 - **Error Handling**: Retry logic can be added for API requests in case of intermittent failures.
 - **Queue for Better Synchronization**: While the current approach works well, using a queue could help streamline thread management and error handling.
+- **Generator Functions**: Consider using generators for data fetching, which will yield results one at a time rather than holding everything in memory at once. This will help if you have large datasets or paginated results.
 
-## License
-
-This project is licensed under the MIT License.
