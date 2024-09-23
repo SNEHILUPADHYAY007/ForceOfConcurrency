@@ -50,8 +50,12 @@ Writes the retrieved data for each API endpoint to a separate JSON file stored u
     - The API endpoints (e.g., people, starships, planets) are fetched in parallel using Python threads.
     - Each endpoint is assigned its own parent thread, which further creates child threads to fetch data from multiple pages concurrently.
 
+![Data Fetching](./Multithread.png)
+
 2. **Data Storage**: 
     - The fetched data is stored in JSON format within corresponding subfolders (e.g., `data/people`, `data/planets`).
+
+![Data Storage](./Data_writing.png)
     
 3. **Threading**:
     - Parent threads handle the API endpoint processing.
