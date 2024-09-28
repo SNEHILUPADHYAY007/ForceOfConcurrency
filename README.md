@@ -1,7 +1,7 @@
 
 # ForceOfConcurrency
 
-This repository demonstrates the use of Python's `threading` module to fetch data concurrently from the Star Wars API (SWAPI). The primary goal of the project is to compare different concurrency techniques, such as asyncio and multithreading, to optimize data retrieval and storage.
+This repository demonstrates the use of Python's `threading` module to fetch data concurrently from the Star Wars API (SWAPI). The primary goal of the project is to compare different concurrency techniques, such as  and multithreading, to optimize data retrieval and storage.
 
 ## Project Overview
 
