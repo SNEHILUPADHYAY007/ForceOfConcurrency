@@ -23,7 +23,7 @@ ForceOfConcurrency/
 │   ├── films/               # Contains JSON data for 'films' endpoint
 │   └── ...                  # Other endpoints' data folders
 ├── multithreading           # Main script that drives the concurrency and data fetching logic 
-    └── main.py                
+    └── main.ipynb                
 ├── requirements.txt         # List of dependencies
 └── README.md                # Project overview (this file)
 ```
