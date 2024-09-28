@@ -22,7 +22,8 @@ ForceOfConcurrency/
 │   ├── planets/             # Contains JSON data for 'planets' endpoint
 │   ├── films/               # Contains JSON data for 'films' endpoint
 │   └── ...                  # Other endpoints' data folders
-├── main.py                  # Main script that drives the concurrency and data fetching logic
+├── multithreading           # Main script that drives the concurrency and data fetching logic 
+    └── main.py                
 ├── requirements.txt         # List of dependencies
 └── README.md                # Project overview (this file)
 ```
